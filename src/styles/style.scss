@@ -1,0 +1,107 @@
+
+/*
+$color-bg:#f0f2f1;
+$color-text:#444;
+$color-big-text:#525252;
+$color-decor-text:#aeaeae;
+$color-decor2-text:#f4645f;
+*/
+
+
+*{
+ color: $color-text;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+.h-text{
+ color:$color-big-text;
+}
+
+.dcr-text{
+ color:$color-decor-text;
+ font-family: 'Lobster', cursive;
+}
+
+.input-group-text{
+ background: $color-bg;
+}
+
+.container{
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.jumbotron{
+ margin-bottom:0;
+ background: $color-bg;
+}
+
+.col-decor{
+ border-left: 2px solid $color-bg;
+ border-right: 2px solid $color-bg;
+}
+
+.title{
+ border-bottom: 1px solid $color-decor-text;
+ text-align: center;
+ font-size: 0.8rem;
+ text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: 2px;
+ position: relative;
+ margin: 60px 0;
+}
+
+.title > span{
+ position: relative;
+ top: 9px;
+ background: #fff;
+ padding: 0 20px;
+ color:$color-decor2-text;
+}
+
+.title-min{
+ font-size: 1.2rem;
+ color: $color-big-text;
+ margin: 1rem 0 1rem 0;
+ text-align: center;
+}
+
+.btn-wrap{
+ padding: 2rem;
+ text-align: center;
+}
+
+.btn:focus,.btn:active {
+ outline: none !important;
+ box-shadow: none;
+}
+
+.btn-outline-primary {
+ color: $color-decor2-text;
+ border-color: $color-decor2-text
+}
+
+.btn-outline-primary:hover {
+ color: #fff;
+ background-color: $color-decor2-text;
+ border-color: $color-decor2-text;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
+ box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+ color: #fff;
+ background-color: $color-decor2-text; 
+ border-color: $color-decor2-text; 
+}
+
+.form-control:focus {
+ color: #495057;
+ background-color: #fff;
+ border-color: $color-decor2-text;
+ outline: 0;
+ box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}

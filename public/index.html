@@ -1,17 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>garaphics_vue</title>
+    <title>Vue & Highcharts</title>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but garaphics_vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div id="wrapper">
+      <noscript>
+        <strong>We're sorry but garaphics_vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      </noscript>
+      <div class="jumbotron text-center">
+        <h1 class="h-text">Vue & Highcharts</h1>
+        <p class="dcr-text">Тестовая работа Сергея С.С.</p> 
+      </div>
+      <div class="container">
+        <div id="app"></div><!-- built files will be auto injected -->
+        <div class="info">
+          <div class="title"><span>Информация:</span></div>
+          <div class="row">
+            <div class="col-sm-4">
+                  <div class="title-min">Описание</div>
+                  <p>Приложение создает график основываясь на входных данных.</p>
+                  <p>Можно менять не только значения полос графика, но и осевые значения.</p>
+                  <p>Кнопка 'Построить график' на основе данных в текстовом поле.</p>
+                  <p>Кнопка  'Cгенерировать' случайно создает данные и оси.</p>
+              </div>
+              <div class="col-sm-4 col-decor">
+                <div class="title-min">Инструменты</div>
+                <p>Для реализации задачи использовались следующие инструменты:</p>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Vue.js CLI</li>
+                  <li>Highcharts</li>
+                  <li>Sass (scss)</li>
+                  <li>Bootstrap</li>
+                  <li>Другие...</li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <div class="title-min">Задача</div>
+                <p>Создать web–страницу с текстовым полем ввода и кнопкой “построить график”.</p>
+                <p>При открытии страницы поле ввода должно содержать редактируемую JSON–строку с данными для построения графика.</p>
+                <p>При нажатии на кнопку “построить график” на странице должен строиться график стекового распределения данных из текстового поля.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron text-center" >
+          <h1 class="h-text">Vue & Highcharts</h1>
+          <p class="dcr-text">Тестовая работа Сергея С.С.</p> 
+      </div>
+    </div>
   </body>
 </html>

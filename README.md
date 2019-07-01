@@ -1,29 +1,30 @@
-# garaphics_vue
+# Установка.
 
-## Project setup
+## 1. Скачиваем проект.
+
+## 2. Нужно нужно открыть папку с проектом (если вы не в нем) 
+
+## 3. Вызвать консоль например git Bash в папке с проектом.
+
+## 4. Установить необходимые пакеты и зависимости командой
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## 5.1 Запуск версии для разработки осуществляется командой. 
+В консоли появится ссылки на проект.
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+## 5.2 Для сборки фала на продакшен (только через сервер, или править пути).
+Будет сформирована папка "dist"
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 5.2 Вариант для локального просмотра фалов.
+```  
+serve -s dist
+npm install -g serve
+```  
